@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ee56f5-850e-41ce-bfee-546c3571e8b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CloudFactoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/AwsCloudFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/GcpCloudFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger/AwsLoggerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger/GcpLoggerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger/LoggerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Storage/AwsStorageClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Storage/GcpStorageClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Storage/StorageClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blob/AwsBlob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blob/AzureBlob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blob/CloudBlob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blob/GcpBlob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/ConfigManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/CloudFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/CloudFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logger/AwsLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logger/AzureLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logger/CloudLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logger/GcpLogger.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AzureCloudFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/AzureLoggerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Storage/AzureStorageClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CloudFactoryProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CloudFactoryProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Provider/AwsCloudProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Provider/AzureCloudProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Provider/CloudProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Provider/GcpCloudProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Request/StorageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Request/StorageRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

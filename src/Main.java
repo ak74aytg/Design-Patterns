@@ -4,7 +4,7 @@ import Request.StorageRequest;
 
 public class Main {
     public static void main(String[] args) {
-        ConfigManager config = ConfigManager.getInstance("gcp", "us-east-1", true);
+        ConfigManager config = ConfigManager.getInstance("azure", "us-east-1", true);
         StorageRequest request = new StorageRequest.Builder("prod", "prod-32.png", "upload")
                 .size(10000L)
                 .content_type("image/jpeg")
