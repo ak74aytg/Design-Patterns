@@ -1,37 +1,44 @@
 package Config;
 
 public class ConfigManager {
-    private static ConfigManager instance;
-    private static String provider;
-    private static String region;
-    private static boolean debug;
+    private final String provider;
+    private final String region;
+    private final Boolean debug;
 
-    private ConfigManager(String provider, String region, Boolean debug){
-        ConfigManager.provider = provider;
-        ConfigManager.region = region;
-        ConfigManager.debug = debug;
+    public String getProvider() {
+        return provider;
     }
 
-    public static ConfigManager createInstance(String provider, String region, Boolean debug) {
-        if (instance == null){
+    public String getRegion() {
+        return region;
+    }
+
+    public Boolean getDebug() {
+        return debug;
+    }
+
+    private static volatile ConfigManager instance;
+
+    private ConfigManager(String provider, String region, Boolean debug) {
+        this.provider = provider;
+        this.region = region;
+        this.debug = debug;
+    }
+
+    public static ConfigManager getInstance(String provider, String region, Boolean debug) {
+        if (null == instance) {
             synchronized (ConfigManager.class) {
-                if (instance == null) {
+                if (null == instance) {
                     instance = new ConfigManager(provider, region, debug);
                 }
             }
         }
+        System.out.println("Config: provider="+instance.getProvider()+", region="+instance.getRegion()+", debug="+instance.getDebug());
+        System.out.println();
         return instance;
     }
 
-    public static String getProvider() {
-        return provider;
-    }
-
-    public static String getRegion() {
-        return region;
-    }
-
-    public static boolean getDebug() {
-        return debug;
+    public static ConfigManager getInstance() {
+        return instance;
     }
 }

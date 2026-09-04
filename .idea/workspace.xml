@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ee56f5-850e-41ce-bfee-546c3571e8b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Blob/AwsBlob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blob/AzureBlob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blob/CloudBlob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blob/GcpBlob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Config/ConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/CloudFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger/AwsLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger/AzureLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger/CloudLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logger/GcpLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Provider/AwsCloudProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Provider/AzureCloudProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Provider/CloudProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Provider/GcpCloudProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Request/StorageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CloudFactoryProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/AwsCloudFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory/GcpCloudFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/AwsLoggerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/GcpLoggerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Logger/LoggerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Storage/AwsStorageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Storage/GcpStorageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Storage/StorageClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blob/AwsBlob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blob/AzureBlob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blob/CloudBlob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blob/GcpBlob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config/ConfigManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/ConfigManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/CloudFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/CloudFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logger/AwsLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logger/AzureLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logger/CloudLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logger/GcpLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/AwsCloudProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/AzureCloudProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/CloudProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/GcpCloudProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Request/StorageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Request/StorageRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ak74aytg"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ak74aytg/Design-Patterns.git",
+    "accountId": "7f57064e-bb6d-47ac-a47e-048337eb5655"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -52,14 +75,22 @@
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "recommented-structure",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/akshay/IdeaProjects/CloudApp/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Factory" />
+      <recent name="Logger" />
+      <recent name="Storage" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -77,5 +108,16 @@
       <workItem from="1787667742195" duration="8000" />
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Config/ConfigManager.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
